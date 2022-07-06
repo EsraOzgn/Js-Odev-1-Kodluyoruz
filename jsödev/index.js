@@ -10,7 +10,7 @@ const ebob = (a, b) => {
 //ekok
 const ekok = (a, b) => a * b / ebob(a, b);
 
-const sayıAralıgı = n => {
+const numb = n => {
     if (n < 3) return n;
     let acc = 2;
     for (let i = 3; i <= n; i++) {
@@ -20,6 +20,5 @@ const sayıAralıgı = n => {
 };
 
 
-console.log(sayıAralıgı(20));
+console.log(numb(20));
 
-//sonuç: 232792560
